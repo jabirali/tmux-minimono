@@ -1,6 +1,7 @@
 # Tmux Minimono
 
-Minimalist monochrome theme for `tmux`.
+Minimalist monochrome theme for Tmux. Note that there is a companion theme
+for Vim and Neovim available [here][4].
 
 ![screenshot](screenshot.png)
 
@@ -36,10 +37,11 @@ complex to get all your applications to look consistent). Here are some themes t
 do work well with your terminal colors, making them good candidates for combination
 with the Minimono `tmux` theme:
 
-- `vim`: The [Dim][2] theme respects your terminal colorscheme.
+- `vim`: The [Minimono][4] and [Dim][2] themes respect your colorscheme.
 - `fzf`: Set `FZF_DEFAULT_OPTS=--color=16` to use an ANSI colorscheme.
 - `bat`: Set `BAT_THEME=ansi-dark` to use a compatible ANSI colorscheme.
 - `fish`: See [this][3] suggestion for a decent ANSI colorscheme.
 
 [2]: https://github.com/jeffkreeftmeijer/vim-dim
 [3]: https://github.com/fish-shell/fish-shell/issues/3443#issuecomment-511227428
+[4]: https://github.com/jabirali/vim-minimono
